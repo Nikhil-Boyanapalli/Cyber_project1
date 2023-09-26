@@ -2,7 +2,7 @@
 
 #This will loop through the files in a directory (Put in loop of directories)
 
-#://askubuntu.com/questions/678914/loop-through-all-files-in-a-folder
+
 createBaseline() {
     BASEPATH=$(find / -name $1 2>/dev/null | head -n1)
 
